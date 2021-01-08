@@ -32,13 +32,13 @@ The data is hosted [here](https://ige-meom-opendap.univ-grenoble-alpes.fr/thredd
 
 To start out download the *observation* dataset (dc_obs, 285M) using : 
 ```shell
-wget https://ige-meom-opendap.univ-grenoble-alpes.fr/thredds/fileServer/meomopendap/extract/ocean-data-challenges/dc_data1/dc_obs.tar.gz
+wget https://ige-meom-opendap.univ-grenoble-alpes.fr/thredds/fileServer/meomopendap/extract/ocean-data-challenges/dc_data1/dc_obs.tar.gz --no-check-certificate
 ```
 
 and the *reference* dataset (dc_ref, 11G) using (*this step may take several minutes*) : 
 
 ```shell
-wget https://ige-meom-opendap.univ-grenoble-alpes.fr/thredds/fileServer/meomopendap/extract/ocean-data-challenges/dc_data1/dc_ref.tar.gz
+wget https://ige-meom-opendap.univ-grenoble-alpes.fr/thredds/fileServer/meomopendap/extract/ocean-data-challenges/dc_data1/dc_ref.tar.gz 
 ```
 and then uncompress the files using `tar -xvf <file>.tar.gz`. You may also use `ftp`, `rsync` or `curl`to donwload the data.  
 
